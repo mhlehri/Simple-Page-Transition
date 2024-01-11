@@ -1,0 +1,56 @@
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: hidden;
+}
+* .main-container,
+body .main-container {
+  overflow-x: scroll;
+  scrollbar-width: 0px;
+  scroll-snap-type: x proximity;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+* .main-container .page-container,
+body .main-container .page-container {
+  flex: none;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  font-size: 10rem;
+}
+* .main-container .page-container:nth-child(1),
+body .main-container .page-container:nth-child(1) {
+  background: #3e3232;
+  color: #a87c7c;
+}
+* .main-container .page-container:nth-child(2),
+body .main-container .page-container:nth-child(2) {
+  background: #2d3250;
+  color: #7077a1;
+}
+* .main-container .page-container:nth-child(3),
+body .main-container .page-container:nth-child(3) {
+  background: #092635;
+  color: #5c8374;
+}
+* .main-container .page-container:nth-child(4),
+body .main-container .page-container:nth-child(4) {
+  background: #22092c;
+  color: rgb(150, 94, 101);
+}
+* .main-container .page-container:nth-child(5),
+body .main-container .page-container:nth-child(5) {
+  background: #0a2647;
+  color: #205295;
+}/*# sourceMappingURL=main.css.map */
